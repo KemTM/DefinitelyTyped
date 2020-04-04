@@ -723,7 +723,7 @@ export interface Repl {
 
 export interface SensorOption {
     pin: number | string;
-    freq?: boolean;
+    freq?: number;
     threshold?: number;
     enabled?: boolean;
 }
